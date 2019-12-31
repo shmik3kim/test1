@@ -4,6 +4,34 @@
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
   
   <style>
+    .injected-text {
+      margin-bottom: -25px;
+      text-align: center;
+    }
+    
+    .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+    }
+      
+    .yellow-box {
+    background-color: yellow;
+      padding: 10px;
+    }
+    
+    .red-box {
+      background-color: red;
+        padding: 10px;
+    }
+    
+    .blue-box {
+      background-color: blue;
+      padding: 10px;
+    }
+    
+    
     h1 {
       color: green;
       font-size: 45px;
@@ -121,7 +149,13 @@
   <label for="Snowspeeder" class= "red-text"><input id="Snowspeeder" type="checkbox" name="lego set"> Snowspeeder</label>
   <label for="Batmobile" style="color: blue;"><input id="Batmobile" type="checkbox" name="lego set"> Batmobile</label>
   
- 
+  <h5 class= "injected-text"> margin </h5>
+  
+  <div class= "box yellow-box">
+    <h5 class= "box red-box"> red </h5>
+    <h5 class= "box blue-box"> blue </h5>
+  </div>
+  
   
   
 </html>
